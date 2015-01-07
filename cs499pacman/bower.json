@@ -1,0 +1,7 @@
+{
+  "name": "CS 499 Pacman ",
+  "version": "0.0.0",
+  "dependencies": {
+    "crafty": "~0.6.2",
+  }
+}
