@@ -1,0 +1,32 @@
+<html>
+  <head>
+      <script type="text/javascript"src="bower_components/crafty/dist/crafty-min.js"></script>
+      <script src = "js/game.js"></script>
+      <script src="js/loading.js"></script>
+      <script src= "js/components.js"></script>
+      <script src="js/scenes.js"></script>
+      <script src="js/pacman.js"></script>
+      <script src="js/bashful.js"></script>
+      <script src="js/speedy.js"></script>
+      <script src="js/shadow.js"></script>
+      <script src="js/pokey.js"></script>
+      <link rel="stylesheet" type="text/css" href="lib/Semantic-UI-1.0.1/dist/semantic.min.css">
+      <script src="lib/Semantic-UI-1.0.1/dist/semantic.min.js"></script>
+    </head>
+  <body>
+        <div id="game"></div>
+        <center><img src="lib/Pac-Man_Logo.png" alt="Pacman Logo"></center>
+      
+          <center><div class="ui inverted green button" id="control" onclick="control()">Pause OR Play</div></center>
+        <!--button id="pause_control" onclick="pause_control()">Pause</button!-->
+        <!--button id="unpause_control" onclick="unpause_control()">Unpause</button!-->
+      <script>  
+        window.addEventListener('load', Game.start);
+      </script>
+      
+      <style type="text/css" media="screen">
+	body, html { margin:0; padding: 15 0 0 0; overflow:hidden; font-family:Comic Sans MS; font-size:20px; background: black }
+    #cr-stage { border:1px solid black; margin:0px auto; color:black }
+</style>
+  </body>
+</html>
